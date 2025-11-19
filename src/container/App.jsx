@@ -198,7 +198,14 @@ class App extends React.Component {
         <header className="hero">
           <h1 className="hero__title">
             {'Neoncade'.split('').map((char, idx) => (
-              <span key={idx}>{char}</span>
+              <span
+                key={idx}
+                className={`hero__title-letter ${
+                  idx < 4 ? 'hero__title-letter--neon' : 'hero__title-letter--cade'
+                }`}
+              >
+                {char}
+              </span>
             ))}
           </h1>
           <SearchBox searchChange={this.onSearchChange} />
