@@ -27,7 +27,7 @@ const games = [
     title: 'Evan’s Asteroid Defense',
     creator: 'Evan',
     baseGame: 'Asteroid Defense',
-    url: 'https://alien-invasion-one.vercel.app/p',
+    url: 'https://alien-invasion-one.vercel.app/',
     screenshot: asteroid,
     accent: '#ff6b6b',
     accentShadow: 'rgba(255, 107, 107, 0.42)',
