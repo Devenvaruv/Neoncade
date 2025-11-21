@@ -10,7 +10,6 @@ const CardList = ({ games }) => {
           title={game.title}
           creator={game.creator}
           baseGame={game.baseGame}
-          description={game.description}
           url={game.url}
           screenshot={game.screenshot}
           accent={game.accent}

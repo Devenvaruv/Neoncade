@@ -126,8 +126,5 @@
 }
 
 .game-card__description {
-  margin: 8px 0 0;
-  color: rgba(235, 240, 255, 0.82);
-  line-height: 1.45;
-  font-size: 15px;
+  display: none;
 }

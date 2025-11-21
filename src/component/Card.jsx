@@ -3,7 +3,7 @@ import './Card.css';
 
 class Card extends React.Component {
   render() {
-    const { title, creator, baseGame, description, url, screenshot, accent, accentShadow } = this.props;
+    const { title, creator, baseGame, url, screenshot, accent, accentShadow } = this.props;
 
     return (
       <article className="game-card" style={{ '--accent': accent, '--accent-shadow': accentShadow }}>
@@ -25,7 +25,6 @@ class Card extends React.Component {
           </div>
           <p className="game-card__meta">Creator: {creator}</p>
           <p className="game-card__meta game-card__meta--base">Base game: {baseGame}</p>
-          <p className="game-card__description">{description}</p>
         </div>
       </article>
     );
