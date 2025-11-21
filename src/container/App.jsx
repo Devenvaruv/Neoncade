@@ -67,7 +67,7 @@ const games = [
     title: 'Run Tail',
     creator: 'Vivian',
     baseGame: 'Pet Rescue',
-    url: 'https://example.com/chroma-courier',
+    url: 'https://run-tail-g.vercel.app/',
     screenshot: petrescue,
     accent: '#ff7ad1',
     accentShadow: 'rgba(255, 122, 209, 0.42)',
